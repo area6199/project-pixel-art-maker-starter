@@ -16,24 +16,21 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-table,
-tr,
-td {
-    border: 1px solid black;
+
+#myCanvasDiv{
+display: flex;
+   flex-direction: column;
+
+}
+#myCanvas
+{
+  border: 1px solid black;
 }
 
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
+#myCanvasDivHo{
+  max-height: 10px;
 }
 
-tr {
-    height: 20px;
-}
-
-td {
-    width: 20px;
-}
 
 input[type=number] {
     width: 6em;
